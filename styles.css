@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family:arial;
+    letter-spacing: 2px;
+}
+.bar {
+    display:flex;
+    align-items:center;
+    border: bold 10rem black;
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    height: 10px;
+}
+
+#title {
+    font-weight:100;
+    font-size:30px;
+    
+    
+}
+
+.bar div a {
+    color:white;
+    text-decoration: none;
+    font-size:small;    
+}
+.bar .links {
+    display:flex;
+    justify-content: space-around;
+    flex-grow:5;
+    margin-left:100px;
+}
+
+#users {
+text-transform:capitalize;
+font-weight:bold;
+}
